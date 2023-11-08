@@ -2,7 +2,8 @@ from docx import Document
 
 # Tratamiento de apertura y de lectura de un archivo .docx
 # Se especifica la ruta del archivo docx que queremos usar
-ruta_archivo_docx = r'C:/Users/clja1/Documents/CursoFormacionPyhton/PersistenciaFicheros/EmailPrueba.docx'
+# En ruta relativa
+ruta_archivo_docx = r'EmailPrueba.docx'
 
 # Creación un objeto Document a partir del archivo DOCX del cual la variable ruta_archivo_docx ya ha cogido el valor
 doc = Document(ruta_archivo_docx)
@@ -14,6 +15,7 @@ for paragraph in doc.paragraphs:
 # Tratamiento de apertura y de lectura de un archivo .txt
 
 # Se especifica la ruta del archivo txt que queremos usar
+# En ruta absoluta
 ruta_archivo_txt = r'C:/Users/clja1/Documents/CursoFormacionPyhton/PersistenciaFicheros/EmailPrueba.txt'
 
 # Abre el archivo TXT en modo lectura

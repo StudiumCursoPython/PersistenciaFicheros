@@ -4,7 +4,8 @@ nombre_original = "Antonio"
 nombre_cambio_txt = input("Nuevo Nombre: ")
 
 # Se especifica la ruta del archivo txt que queremos usar
-ruta_archivo_txt = r'C:/Users/clja1/Documents/CursoFormacionPyhton/PersistenciaFicheros/EmailPrueba.txt'
+# Ruta relativa
+ruta_archivo_txt = r'EmailPrueba.txt'
 
 # Leer el contenido del archivo
 with open(ruta_archivo_txt, 'r', encoding='utf-8') as file:
