@@ -16,7 +16,7 @@ for paragraph in doc.paragraphs:
 
 # Se especifica la ruta del archivo txt que queremos usar
 # En ruta absoluta
-ruta_archivo_txt = r'C:/Users/clja1/Documents/CursoFormacionPyhton/PersistenciaFicheros/EmailPrueba.txt'
+ruta_archivo_txt = r'C:/Users/Pepe/Documents/CursoFormacionPython/PersistenciaFicheros/EmailPrueba.txt'
 
 # Abre el archivo TXT en modo lectura
 with open(ruta_archivo_txt, 'r', encoding='utf-8') as archivo_txt:
