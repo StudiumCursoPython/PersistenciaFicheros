@@ -10,7 +10,9 @@ doc.add_paragraph(nueva_frase_docx)
 
 # Guardar los cambios
 doc.save(ruta_archivo_docx)
-print(f'Se ha agregado la frase "{nueva_frase_docx}" al archivo docx.')
+print(f'Se ha agregado la frase "{nueva_frase_docx}" al archivo docx.') # f-string permite la concatenación directa de variables
+#se puede hacer de la forma clásica print('Se ha agregado la frase' + \"nueva_frase_docx\" + al archivo docx.'). L f-string es más eficiente
+
 
 # Se especifica la ruta del archivo txt que queremos usar
 ruta_archivo_txt = r'C:/Users/Pepe/Documents/CursoFormacionPython/PersistenciaFicheros/EmailPrueba.txt'
