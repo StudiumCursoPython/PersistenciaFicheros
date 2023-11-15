@@ -14,7 +14,7 @@ for paragraph in doc.paragraphs:
     for run in paragraph.runs:
         run.text = run.text.replace(nombre_original, nombre_cambio_docx)
 
-    '''forma simple sin runs y sin mantener fuente y estilo y que no lo requiera
+    '''#forma simple sin runs y sin mantener fuente y estilo y que no lo requiera
         paragraph.text = paragraph.text.replace(nombre_original, nombre_cambio_docx)
     '''
 # Se guarda el documento con el nombre actualizado
