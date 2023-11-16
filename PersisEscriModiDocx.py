@@ -1,4 +1,5 @@
 from docx import Document
+
 # Variable que se va a usar para buscar
 nombre_original = "Antonio"
 #Entrada por teclado de la busqueda
