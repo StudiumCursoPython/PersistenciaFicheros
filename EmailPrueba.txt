@@ -23,3 +23,4 @@ Manuel Guisado
 
 En Cordoba a 6 de noviembre de 2023
 
+Formación de Python. Escritura en archivo .txt

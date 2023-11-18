@@ -1,7 +1,6 @@
 import pandas as pd
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
-from reportlab.lib import colors
 
 def excel_to_pdf(excel_file, pdf_file):
     # Lectura de datos de Excel
