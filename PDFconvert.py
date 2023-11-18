@@ -91,11 +91,16 @@ aplicacion.title("Conversor de Documentos a PDF")
 aplicacion.geometry("400x300")  # Tamaño de la ventana
 aplicacion.resizable(False, False)
 
-# Obtener la ruta de acceso a los recursos incluidos en el archivo
+# Obtener la ruta de acceso a los recursos incluidos en el archivo para los archivos empaquetados
 ruta_recursos = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+
+# Otra forma de obtener los recursos 
+# ruta_recursos = getattr(sys, 'os.path.dirname(os.path.abspath(__file__))', os.path.dirname(os.path.abspath(__file__)))
 
 # Cargar las imágenes
 icono = PhotoImage(file=os.path.join(ruta_recursos, "Studium.png"))
+# Función que construye la ruta completa al archivo de imagen "Studium.png" válida para los sistemas W y Linux
+
 foto = PhotoImage(file=os.path.join(ruta_recursos, "pdfImagen.png"))
 
 # Ajuste del tamaño de la imagen del botón
