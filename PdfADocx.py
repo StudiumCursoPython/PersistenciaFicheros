@@ -59,11 +59,6 @@ boton_seleccionar.pack(pady=110)
 
 # Ejecutar la aplicación
 aplicacion.iconphoto(True, icono)
-aplicacion.mainloop()
-
-# Botón para seleccionar archivos PDF
-boton_seleccionar = tk.Button(aplicacion, text="Seleccionar archivos PDF", command=seleccionar_archivos)
-boton_seleccionar.pack(pady=20)
 
 # Ejecutar la aplicación
 aplicacion.mainloop()
