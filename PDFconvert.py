@@ -61,6 +61,7 @@ def combinar_archivos(rutas_archivos, ruta_salida):
 
 def convertir_word_a_pdf(ruta_entrada, ruta_salida):
     documento = Document(ruta_entrada)
+    # Uso de la librería reportlab
     pdf = SimpleDocTemplate(ruta_salida, pagesize=letter)
     estilos = getSampleStyleSheet()
     contenido = []
