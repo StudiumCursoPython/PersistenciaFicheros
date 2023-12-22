@@ -7,12 +7,12 @@ Fecha: Noviembre 2023
 
 """
 
-import tkinter as tk
 from tkinter import filedialog
 from tkinter import *
 from tkinter.ttk import *
 from docx import Document
 from PIL import Image, ImageTk
+import tkinter as tk
 import PyPDF2
 import os
 import sys
