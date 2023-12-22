@@ -1,4 +1,12 @@
-import tkinter as tk
+""" 
+Curso Python empresa de 'Lenguaje de Programación Python'
+
+Autor: José Antonio Calvo López
+
+Fecha: Noviembre 2023
+
+"""
+
 from tkinter import filedialog
 from tkinter import *
 from tkinter.ttk import *
@@ -7,6 +15,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from PIL import Image, ImageTk
+import tkinter as tk
 import PyPDF2
 import os
 import sys
